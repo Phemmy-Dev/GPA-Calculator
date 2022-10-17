@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GPA Calculator</title>
+</head>
+<body>
+    <header>
+        <h5>Made by Phemmy🤙 I hope it helps</h5>
+    </header>
+    <div class="container">
+        <h1>GPA Calculator</h1>
+        <div class="form-row">
+            <div class="col">
+                <input type="text" id="course-code" class="form-control" placeholder="Course Code">
+            </div>
+
+            <div class="col">
+                <input type="number" id="course-unit" class="form-control" placeholder="Course Unit" max="5">
+            </div>
+
+            <div class="col">
+                <select class="form-control control" id="grade">
+                    <option value="">Grade</option>
+                    <option value="5">A</option>
+                    <option value="4">B</option>
+                    <option value="3">C</option>
+                    <option value="2">D</option>
+                    <option value="1">E</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+
+            <div class="col">
+                <input id="add" class="btn btn-add" value="Add" type="button">
+            </div>
+
+        </div>
+
+        <table id="table" class="display" style="width: 100%; border: 2px solid rgb(136, 134, 134);; border-collapse: collapse; ">
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Unit</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody" style="border: 2px solid rgb(136, 134, 134);">
+
+            </tbody>
+
+            <tfoot id="tfoot">
+
+            </tfoot>
+        </table>
+
+        <div class="row">
+            <div class="col">
+                <input type="button" class="btn btn-success display" value="Calculate GP" id="calc-gp">
+            </div>
+            <div class="col">
+                <input type="button" class="btn btn-clear display" value="Clear" id="clear">
+            </div>
+        </div>
+
+        <footer>
+            
+        </footer>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

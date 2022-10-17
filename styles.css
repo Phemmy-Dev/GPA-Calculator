@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(270, 15%, 13%);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+h1 {
+    text-align: center;
+    margin: 39px;
+    color: white;
+}
+
+table {
+    margin-top: 30px;
+}
+
+.form-row {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    padding: 12px 0;
+    padding-right: 70px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid blue;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.control {
+    padding-right: 170px;
+}
+
+th, td {
+    font-weight: 300;
+    color: rgb(241, 236, 236);
+    text-align: center;
+    padding: 6px 0;
+}
+
+.display {
+    display: none;
+}
+
+.btn-success, .btn-clear {
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-success {
+    background-color: rgb(23, 160, 23);
+    border: none;
+}
+
+.btn-clear {
+    background-color: red;
+    border: none;
+}
+
+
+.btn-add {
+    padding: 12px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(13, 13, 201);
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    margin-top: 10px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+tbody td {
+    text-transform: uppercase;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+header h5 {
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    top: 10px;
+    left: 50%;
+    border-bottom: 1px solid white;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+    .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    padding: 12px 0;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid blue;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.control {
+    padding-right: 100px;
+}
+
+.col {
+    margin-bottom: 10px;
+}
+}
